@@ -1,4 +1,4 @@
-# Freelance Conten Writer Wbsite 🧩
+# Freelance Content Writer Website 🧩
 
 A 3-page website displaying a home page, services page, and contact form built usuing HTML, CSS, and a bit of javascript for some functionality. 
 

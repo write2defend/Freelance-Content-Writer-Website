@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+		<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="freelancer_website.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+    <!---Site Logo-->
+        <a href="index.html" >
+					<img src="Images/logo.jpg" alt="site logo" class="logo">
+        </a>
+
+    <!--Navigation Bar-->
+        <nav id="nav-bar">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </header>
+
+      <h1>Contact Me</h1>
+      <p>Fill out the form below if you have any questions, interested in subscribing to a monthly package or if you just want to say Hi!</p>
+
+      <!--- Form Content --->
+      <form id="submitForm" method="POST" onsubmit="return submitForm()">
+      		<h1>Fill in the Form</h1>
+						<label for="fullname">Full Name:</label>
+						<input type="text" name="fullname" id="fullname" required placeholder="Name and Surname">
+						<label for="email">Email:</label>
+						<input type="email" name="userEmail" id="email" required placeholder="Enter your email address">
+						<label for="message">Message:</label>
+					<div class="textarea-wrapper">
+         	  <textarea name="userMessage" id="message" maxlength="300" required placeholder="What's your message?"></textarea>
+            <span id="characterCount">0 / 300 characters</span>
+       		</div>
+       
+        <button type="submit" id="submit">Send Message</button>
+     </form>
+
+		<!--- Simulation Messages --->
+    <div id="message_sending">Sending your message...</div>
+    <div id="confirmation">Message Sent Successfully!</div>
+    
+   	 
+      <!--- Bottom Naviagtion --->
+    <nav id="nav-bar-bottom">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    
+		 <!--- Footer Content --->
+    <footer>
+      <p>&copy; 2025 Freelance Content Writer. All rights reserved</p>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

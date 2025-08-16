@@ -7,8 +7,9 @@ A 3-page website displaying a home page, services page, and contact form built u
 - Custom-made logo
 - Hover effects
 - Flexbox
-- Contact form with simulated messages on mobile
-- CTA's
+- Simulated pop up messages
+- Call to action buttons
+- Images
 
 ## Live Preview 👩‍💻
 

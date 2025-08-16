@@ -56,7 +56,7 @@ blockquote p {
     margin: 0;
 }
 
-/*Bold paragprah text throughout site*/
+/*Bold paragprah text and unique h3 text throughout site*/
 .bold-text{
     font-weight: bold;
 }
@@ -89,7 +89,7 @@ header{
 }
 
 .logo {
-    width: 110px;
+    width: 85px;
     border-collapse: collapse;
     margin: 1.5rem 0;
 }

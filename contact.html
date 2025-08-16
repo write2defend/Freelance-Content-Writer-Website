@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 		<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="freelancer_website.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Contact</title>
+      <link rel="stylesheet" type="text/css" href="freelancer_website.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
     <header>
-    <!---Site Logo-->
+    <!---Clickable site Logo-->
         <a href="index.html" >
-					<img src="logo.jpg" alt="site logo" class="logo">
+					<img src="Images/logo.jpg" alt="site logo" class="logo">
         </a>
 
     <!--Navigation Bar-->
@@ -23,7 +23,8 @@
       </header>
 
       <h1>Contact Me</h1>
-      <p>Fill out the form below if you have any questions, interested in subscribing to a monthly package or if you just want to say Hi!</p>
+      <img src="https://images.pexels.com/photos/6362/man-coffee-smartphone-working-6362.jpg" class="deco-img" alt="person holding a phone">
+      <p>Fill out the form below if you have any questions, interested in subscribing to a monthly package or if you just want to pop in and say Hi!</p>
 
       <!--- Form Content --->
       <form id="submitForm" method="POST" onsubmit="return submitForm()">
@@ -39,25 +40,19 @@
        		</div>
        
         <button type="submit" id="submit">Send Message</button>
-     </form>
 
-		<!--- Simulation Messages --->
-    <div id="message_sending">Sending your message...</div>
-    <div id="confirmation">Message Sent Successfully!</div>
-    
-   	 
-      <!--- Bottom Naviagtion --->
-    <nav id="nav-bar-bottom">
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html" class="active">Contact</a>
-    </nav>
-    
-		 <!--- Footer Content --->
-    <footer>
-      <p>&copy; 2025 Freelance Content Writer. All rights reserved</p>
-    </footer>
-    
+        <!--- Simulation Messages --->
+        <div id="message_sending">Sending your message...</div>
+        <div id="confirmation">Message Sent Successfully!</div>
+    </form>
+     
+		  <!--- Footer Content ---->
+    <div class="page-wrapper">
+      <footer>
+        <p>&copy; 2025 Freelance Content Writer. All rights reserved.</p>
+      </footer>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

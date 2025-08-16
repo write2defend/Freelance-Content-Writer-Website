@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-	<head>
-  		<meta charset="UTF-8">
+    <head>
+      <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Home</title>
       <link rel="stylesheet" type="text/css" href="freelancer_website.css">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
+    </head>
+    <body>
       <header>
-  	  	<!---Site Logo-->
+    <!--- Clickable Site Logo-->
         <a href="index.html" >
-          <img src="logo.jpg" alt="site logo" class="logo">
+					<img src="Images/logo.jpg" alt="site logo" class="logo">
         </a>
 
-    		<!--Navigation Bar-->
+    <!--Navigation Bar-->
         <nav id="nav-bar">
           <a href="index.html" class="active">Home</a>
           <a href="services.html">Services</a>
@@ -24,9 +24,8 @@
 
     <!--Main Content-->
     <h1>Freelance Content Writer</h1>
-    	<img src="https://images.pexels.com/photos/4069535/pexels-photo-4069535.jpeg" alt="home office">
     <h2>Content Writing Services for Busy Founders and Teams</h2>
-
+    <img src="https://images.pexels.com/photos/4069535/pexels-photo-4069535.jpeg" class="deco-img" alt="home office">
     <h2>I help Busy Founders and Small Teams with Done-For-You Content</h2>
     <p>Hi, I'm Amina. I help founders and small teams who need clear and effective content, but just don't have time to write it themselves.</p>
     <p>Whether it's SEO blogs, website content, social posts or simplified tech content, I free up time so you can focus on growing your business.</p>
@@ -39,6 +38,8 @@
       </ul>
             
     <p>Ready to block off that extra time on your calendar and have some peace of mind</p>
+    
+    <!---Div container for CTA Button-->
     <div class="bttn-container">
 			<a href="contact.html" class="bttn">Let's Talk Content</a>
 		</div>
@@ -46,58 +47,49 @@
     <hr>
     <h2>Writing Services</h2>
       <section id="gallery-services">
-      		<figure>
-	            <figcaption>SEO Content</figcaption>
-	            <img src="seo-content.jpg" alt="seo content">
-        	</figure> 
+        <figure class="service-item">
+            <figcaption>SEO Content</figcaption>
+            <img src="Images/seo-content.jpg" alt="seo content">
+        </figure> 
 
-       	 <figure> 
+        <figure class="service-item"> 
             <figcaption>Technical Content Writing</figcaption>
-            <img src="technical-content.jpg" alt="technical content writing">
+            <img src="Images/technical-content.jpg" alt="technical content writing">
         </figure> 
 
-        <figure> 
+        <figure class="service-item"> 
             <figcaption>Social Posts</figcaption>
-            <img src="social-posts.jpg" alt="social media content">
+            <img src="Images/social-posts.jpg" alt="social media content">
         </figure> 
 
-        <figure> 
-            <figcaption>Founder Support/Ghostwriting</figcaption>
-            <img src="ghostwriting.jpg" alt="ghostwriting content services">
+        <figure class="service-item"> 
+            <figcaption>Founder Support</figcaption>
+            <img src="Images/ghostwriting.jpg" alt="ghostwriting content services">
         </figure> 
       </section>
-			<!--- Div Container for Portfolio CTA --->
-		<div class="bttn-container">
+			<div class="bttn-container">
 				<a href="https://www.aminamwrites.com/portfolio" class="bttn">View Samples Here</a>
-		</div>
-		
-    <hr>
+			</div>
+      <hr>
     
     <h2>Prices</h2>
-  	<p>Every package is meticulously crafted to support you wherever you are in your journey. Whether you're just starting out, testing the waters, or looking to give creating content another shot these packages are designed to suit your current needs.</p>
+    <p>Every package is meticulously crafted to support you wherever you are in your journey. Whether you're just starting out, testing the waters, or looking to give creating content another shot these packages are designed to suit your current needs.</p>
     <p>Packages range from <b>R1600 - R4200/ $110 - $250</b> per month</p>
     
     <p>You also have the luxury of selecting your own kit using the build-a-pack option. This option is great if you're not ready to make a full investment just yet</p>
     <p>Visit the services page for an overview of available packages you can choose from.</p>
 
-		<!--- Div Container for Price List CTA --->
-		<div class="bttn-container">
+    <!---Div container for CTA Button-->
+    <div class="bttn-container">
 			<a href="services.html" class="bttn">Get the Full Price List Here</a>
 		</div>
     
-    <!--- Bottom Navigation ---->
-    
-    <nav id="nav-bar-bottom">
-      <a href="index.html" class="active">Home</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-
-		<!--- Footer Content --->
-    <footer>
-      <p>&copy; 2025 Freelance Content Writer. All rights reserved.</p>
-    </footer>
-    
-    <script src="script.js"></script>
-	</body>
+    <!--- Footer Content ---->
+    <div class="page-wrapper">
+      <footer>
+        <p>&copy; 2025 Freelance Content Writer. All rights reserved.</p>
+      </footer>
+    </div>
+  <script src="script.js"></script>
+  </body>
 </html>

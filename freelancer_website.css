@@ -158,7 +158,7 @@ hr{
 
 #gallery-services {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
     padding: 1.5rem;
     max-width: 1000px;  
@@ -366,7 +366,10 @@ footer {
         max-width: 95%;
         margin: 1rem auto
 		}
-
+    #gallery-services {
+        grid-template-columns: 1fr;
+		}
+	
 		 #submitForm {
         padding: 1rem;
     }

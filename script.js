@@ -1,4 +1,5 @@
 
+// Function for form submission process
 function submitForm() {
     const messageSending = document.getElementById("message_sending");
     const confirmation = document.getElementById("confirmation");
@@ -10,22 +11,24 @@ function submitForm() {
 
     // Simulate sending
     setTimeout(() => {
-        messageSending.style.display = "none";  // hide sending
-        confirmation.style.display = "block";   // show confirmation
+        messageSending.style.display = "none";  // hide sending 
+        confirmation.style.display = "block";   // show confirmation 
 
         // Reset form fields
         form.reset();
 
         // Hide confirmation after 2 seconds
-     setTimeout(() => {
-        confirmation.style.display = "none";
+        setTimeout(() => {
+            confirmation.style.display = "none";
         }, 2000);
     }, 2000);
 
-    // Prevents page reload //
+    // Prevent page reload
     return false;
 }
-// Character count for message box in the contact form//
+
+    
+  // Character count
   
 const messageInput = document.getElementById('message');
 const characterCount = document.getElementById('characterCount');
@@ -35,8 +38,9 @@ messageInput.addEventListener('input', () => {
   let currentLength = messageInput.value.length;
 
   if (currentLength > maxLength) {
-	    messageInput.value = messageInput.value.substring(0, maxLength);
-	    currentLength = maxLength;
+    messageInput.value = messageInput.value.substring(0, maxLength);
+    currentLength = maxLength;
   }
+
   characterCount.textContent = `${currentLength} / ${maxLength}`;
 });
